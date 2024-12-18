@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #4f46e5;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Wrapper for the app */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styles */
+label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4a4a4a;
+  margin-bottom: 0.5rem;
+}
+
+/* Input and Select styles */
+input,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: #333333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+input:focus,
+select:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 4px rgba(79, 70, 229, 0.3);
+}
+
+/* Button styles */
+button {
+  width: 100%;
+  background-color: #16a34a;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #15803d;
+}
+
+/* Loading and Error styles */
+.loading,
+.error {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.loading {
+  color: #4a4a4a;
+}
+
+.error {
+  color: #dc2626;
+}
+
+/* Bank Details styles */
+.bank-details {
+  margin-top: 2rem;
+}
+
+.bank-details h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 1rem;
+}
+
+.bank-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bank-list li {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.bank-list li p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  color: #555555;
+}
+
+.bank-list li p:first-child {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333333;
+}
